@@ -1,0 +1,39 @@
+body > div {
+  transition: all 0.3s ease;
+}
+
+body {
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 7vmin;
+}
+.flexy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#getQuote {
+  float: center;
+}
+#getQuote:hover {
+  transition: all 0.3s ease;
+  cursor: pointer;
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+}
+img {
+  max-width: 100%;
+}
+
+#tweetThatTrash {
+  font-size: 20vmin;
+  padding-top: -20vmin;
+  padding-bottom: -20vmin;
+  color: #00aced;
+}
+#tweetThatTrash:hover {
+  transition: all 0.3s ease;
+  color: #1dcaff;
+}
+
