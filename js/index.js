@@ -4,7 +4,7 @@
 
    function getNewQuote() {
      $.ajax({
-       url: 'https://random-quote-generator.herokuapp.com/api/quotes/random',
+       url: 'https://talaikis.com/api/quotes/random/',
       
       
        success: function(response) {
